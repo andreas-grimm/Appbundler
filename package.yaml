@@ -1,0 +1,14 @@
+id: com.example.myapp            # CFBundleIdentifier: A unique string to identify your app.
+name: MyApp                       # CFBundleName: Short name of the app.
+version: 1                         # CFBundleVersion: The build version number.
+display_name: My Application      # CFBundleDisplayName: Localized version of the app name.
+type: APPL                        # CFBundlePackageType: Type of the application, default is "APPL".
+icon_file: appIcon.icns           # CFBundleIconFile: Name of the icon file for the app.
+signature: 1.0.0                  # CFBundleSignature: Build version number.
+executable: MyApp                 # CFBundleExecutable: Name of the main executable file.
+system_minimal_version: 10.13.0   # LSMinimumSystemVersion: Minimum macOS version required.
+document_types: com.example.text # CFBundleDocumentTypes: Document types associated with the app.
+short_version_string: 1.0.0      # CFBundleShortVersionString: User-visible version of the app.
+readable_copyright: "© 2025 MyCompany"  # NSHumanReadableCopyright: Copyright statement.
+main_nib_file: MainMenu.nib      # NSMainNibFile: The main NIB file (if applicable, for macOS UI).
+principle_class: NSApplication   # NSPrincipalClass: The main class of the app (usually NSApplication).
